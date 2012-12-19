@@ -1,0 +1,322 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=q:\Installer
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+PCHS.mdb=C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS.mdb
+PCHS.ini=Q:\PCHS System Latest Update\PCHS.ini
+
+[Package|Standard Setup Package 1|Files Released]
+EXCEL.EXE=
+u2LBAR.DLL=
+u25TOTAL.DLL=
+u25STORE.DLL=
+Crystal=
+request.rpt=
+otheroutsummary.rpt=
+otherinsummary.rpt=
+missing.rpt=
+examination.rpt=
+dogoutsummary.rpt=
+doginsummary.rpt=
+detailed disposition.rpt=
+Detailed Acquisition.rpt=
+Contract.rpt=
+CatOutSummary.rpt=
+CatInSummary.rpt=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\system32\crviewer.dll=
+Q:\PCHS System\crystl32.ocx=
+C:\WINDOWS\system32\MSDERUN.DLL=
+C:\Program Files\Seagate Software\Report Designer Component\craxdrt.dll=
+C:\Program Files\Seagate Software\Report Designer Component\craxddt.dll=
+C:\WINDOWS\system32\craxddrt.dll=
+C:\WINDOWS\system32\craxdrt.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\MSDBRPTR.DLL=
+C:\WINDOWS\system32\tabctl32.ocx=
+C:\WINDOWS\system32\MSADODC.OCX=
+C:\WINDOWS\system32\MSDATGRD.OCX=
+C:\WINDOWS\system32\Mscomctl.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+q:\pchs.mdb=
+pchs.ini=
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\windows\system32\msvcrt.dll=
+q:\pchs.mdb=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\tabctl32.ocx=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\system32\msjet40.dll=Yes
+C:\WINDOWS\system32\msjter40.dll=Yes
+C:\WINDOWS\system32\msjint40.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\mswstr10.dll=Yes
+C:\WINDOWS\system32\mswdat10.dll=Yes
+C:\WINDOWS\system32\msrd2x40.dll=Yes
+C:\WINDOWS\system32\msrd3x40.dll=Yes
+C:\WINDOWS\system32\msrepl40.dll=Yes
+C:\WINDOWS\system32\msjtes40.dll=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\Program Files\Seagate Software\Viewers\ActiveXViewer\crviewer.dll=Yes
+Q:\PCHS System Latest Update\PCHS.exe=Yes
+C:\WINDOWS\system32\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\craxdrt.dll=Yes
+C:\WINDOWS\system32\craxddrt.dll=Yes
+Q:\PCHS.mdb=No
+Q:\PCHS System Latest Update\PCHS.ini=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\480\PCHS System\PCHS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+Q:\PCHS System\PCHS.exe=$(AppPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+Q:\Clean Database\PCHS.mdb=$(AppPath)
+C:\WINDOWS\system32\MSDERUN.DLL=$(WinSysPath)
+C:\WINDOWS\system32\dao360.dll=$(MSDAOPath)
+Q:\PCHS System\crystl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\crviewer.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+Q:\PCHS System\PCHS.ini=$(AppPath)
+Q:\PCHS System\CatInSummary.rpt=$(AppPath)
+Q:\PCHS System\CatOutSummary.rpt=$(AppPath)
+Q:\PCHS System\Contract.rpt=$(AppPath)
+Q:\PCHS System\Detailed Acquisition.rpt=$(AppPath)
+Q:\PCHS System\Detailed Disposition.rpt=$(AppPath)
+Q:\PCHS System\DogInSummary.rpt=$(AppPath)
+Q:\PCHS System\DogOutSummary.rpt=$(AppPath)
+Q:\PCHS System\Examination.rpt=$(AppPath)
+Q:\PCHS System\Missing.rpt=$(AppPath)
+Q:\PCHS System\OtherInSummary.rpt=$(AppPath)
+Q:\PCHS System\OtherOutSummary.rpt=$(AppPath)
+Q:\PCHS System\Request.rpt=$(AppPath)
+C:\WINDOWS\system32\crystl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\crpe32.dll=$(WinSysPath)
+C:\WINDOWS\system32\implode.dll=$(WinSysPath)
+C:\WINDOWS\system32\Crpaig80.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPath)
+C:\WINDOWS\system32\mfc42.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\crxlat32.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2bbde.dll=$(WinSysPath)
+C:\WINDOWS\system32\P2bbnd.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2bdao.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2bxbse.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2ctdao.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2irdao.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2sifmx.dll=$(WinSysPath)
+C:\WINDOWS\system32\P2smon.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2sodbc.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2sora7.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2ssql.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2ssyb10.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2soledb.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ddisk.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dmapi.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dnotes.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dpost.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dvim.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dapp.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fcr.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fhtml.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fodbc.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2frec.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2frtf.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fsepv.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ftext.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fwks.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fwordw.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fxls.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u25dts.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2l2000.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2lcom.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ldts.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2lsamp1.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u252000.dll=$(WinSysPath)
+\program files\seagate software\shared\SSCSDK80.DLL=$(WinSysPath)
+C:\Program Files\Seagate Software\Viewers\ActiveXViewer\crviewer.dll=$(WinSysPath)
+Q:\PCHS System\Reports\CatInSummary.rpt=$(AppPath)\Reports
+Q:\PCHS System\Reports\CatOutSummary.rpt=$(AppPath)\Reports
+Q:\PCHS System\Reports\Contract.rpt=$(AppPath)\Reports
+Q:\PCHS System\Reports\Detailed Acquisition.rpt=$(AppPath)\Reports
+Q:\PCHS System\Reports\Detailed Disposition.rpt=$(AppPath)\Reports
+Q:\PCHS System\Reports\DogInSummary.rpt=$(AppPath)\Reports
+Q:\PCHS System\Reports\DogOutSummary.rpt=$(AppPath)\Reports
+Q:\PCHS System\Reports\Examination.rpt=$(AppPath)\Reports
+Q:\PCHS System\Reports\Missing.rpt=$(AppPath)\Reports
+Q:\PCHS System\Reports\OtherInSummary.rpt=$(AppPath)\Reports
+Q:\PCHS System\Reports\OtherOutSummary.rpt=$(AppPath)\Reports
+Q:\PCHS System\Reports\Request.rpt=$(AppPath)
+C:\Program Files\Rational\common\sscsdk80.dll=$(WinSysPath)
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\PCHS.exe=$(AppPath)
+C:\Program Files\Seagate Software\Report Designer Component\craxdrt.dll=$(WinSysPath)
+C:\Program Files\Seagate Software\Report Designer Component\craxddrt.dll=$(WinSysPath)
+\program files\seagate software\shared\PG32CONV.DLL=$(AppPath)
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS.mdb=$(AppPath)
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\PCHS.ini=$(AppPath)
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\CatInSummary.rpt=$(AppPath)
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\CatOutSummary.rpt=$(AppPath)
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\Contract.rpt=$(AppPath)
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\Detailed Acquisition.rpt=$(AppPath)
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\Detailed Disposition.rpt=$(AppPath)
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\DogInSummary.rpt=$(AppPath)
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\DogOutSummary.rpt=$(AppPath)
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\Examination.rpt=$(AppPath)
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\Missing.rpt=$(AppPath)
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\OtherInSummary.rpt=$(AppPath)
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\OtherOutSummary.rpt=$(AppPath)
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\Request.rpt=$(AppPath)
+Q:\PCHS System Latest Update\PCHS.exe=$(AppPath)
+C:\WINDOWS\system32\craxdrt.dll=$(WinSysPath)
+C:\WINDOWS\system32\craxddrt.dll=$(WinSysPath)
+C:\Program Files\Seagate Software\Report Designer Component\craxddt.dll=$(WinSysPath)
+Q:\PCHS System Latest Update\PCHS.ini=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\480\PCHS System\PCHS.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+Q:\PCHS System\PCHS.exe=No
+Q:\Clean Database\PCHS.mdb=No
+Q:\PCHS System\PCHS.ini=No
+Q:\PCHS System\CatInSummary.rpt=No
+Q:\PCHS System\CatOutSummary.rpt=No
+Q:\PCHS System\Contract.rpt=No
+Q:\PCHS System\Detailed Acquisition.rpt=No
+Q:\PCHS System\Detailed Disposition.rpt=No
+Q:\PCHS System\DogInSummary.rpt=No
+Q:\PCHS System\DogOutSummary.rpt=No
+Q:\PCHS System\Examination.rpt=No
+Q:\PCHS System\Missing.rpt=No
+Q:\PCHS System\OtherInSummary.rpt=No
+Q:\PCHS System\OtherOutSummary.rpt=No
+Q:\PCHS System\Request.rpt=No
+Q:\PCHS System\Reports\CatInSummary.rpt=No
+Q:\PCHS System\Reports\CatOutSummary.rpt=No
+Q:\PCHS System\Reports\Contract.rpt=No
+Q:\PCHS System\Reports\Detailed Acquisition.rpt=No
+Q:\PCHS System\Reports\Detailed Disposition.rpt=No
+Q:\PCHS System\Reports\DogInSummary.rpt=No
+Q:\PCHS System\Reports\DogOutSummary.rpt=No
+Q:\PCHS System\Reports\Examination.rpt=No
+Q:\PCHS System\Reports\Missing.rpt=No
+Q:\PCHS System\Reports\OtherInSummary.rpt=No
+Q:\PCHS System\Reports\OtherOutSummary.rpt=No
+Q:\PCHS System\Reports\Request.rpt=No
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\PCHS.exe=No
+\program files\seagate software\shared\PG32CONV.DLL=No
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS.mdb=No
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\PCHS.ini=No
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\CatInSummary.rpt=No
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\CatOutSummary.rpt=No
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\Contract.rpt=No
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\Detailed Acquisition.rpt=No
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\Detailed Disposition.rpt=No
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\DogInSummary.rpt=No
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\DogOutSummary.rpt=No
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\Examination.rpt=No
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\Missing.rpt=No
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\OtherInSummary.rpt=No
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\OtherOutSummary.rpt=No
+C:\Documents and Settings\Nick DeSteffen\Desktop\New Folder\PCHS System\Reports\Request.rpt=No
+Q:\PCHS System Latest Update\PCHS.exe=No
+Q:\PCHS System Latest Update\PCHS.ini=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Portage County Humane Society Computer System
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Portage County Humane Society Computer System
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Portage County Humane Society Computer System]
+Icon1=PCHS.exe
+Title1=Portage County Humane Society Computer System
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=q:\Installer
+ProjectFolder=Q:\PCHS System Latest Update
+ServerSideCab=
+File1=q:\Installer\setup.exe
+File2=q:\Installer\Setup.Lst
+File3=q:\Installer\PCHS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
